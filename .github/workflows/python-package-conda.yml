@@ -13,7 +13,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # 您可以使用 '3.6' 來指定特定版本
+        python-version: '3.8'  # 您可以使用 '3.6' 來指定特定版本
 
     - name: Install PyTorch and TensorBoard
       run: |
