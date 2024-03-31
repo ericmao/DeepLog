@@ -18,8 +18,9 @@ jobs:
     - name: Install PyTorch and TensorBoard
       run: |
         pip install torch==1.4.0 torchvision==0.5.0 torchaudio==0.4.0 -f https://download.pytorch.org/whl/torch_stable.html
-        pip install tensorboard==2.0.2
+        pip install tensorboard
         pip install protobuf==3.20
+        pip install numpy==1.19.5
 
     - name: Run Deeplog
       run: |
