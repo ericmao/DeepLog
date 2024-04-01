@@ -22,6 +22,6 @@ jobs:
         pip install protobuf==3.20
         pip install numpy==1.19.5
 
-    - name: Run Deeplog
-      run: |
-        python LogKeyModel_train.py
+#    - name: Run Deeplog
+#      run: |
+#        python LogKeyModel_train.py
